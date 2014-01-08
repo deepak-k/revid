@@ -1845,9 +1845,21 @@ transition: opacity 0.3s ease-in-out;
 }
 
 .views-slideshow-pager-field-item.active .views-content-counter {
-opacity: .65;
+opacity: .95;
 }
 
 #block-views-home-page-slideshow-block .block-inner {
   margin: 0;
+}
+
+.views-slideshow-controls-bottom {
+  position: absolute;
+  bottom: 12px;
+  right: 100px;
+  z-index: 1000;
+}
+
+.views-slideshow-controls-bottom .views-field-counter {
+  display: inline-block;
+  margin-left: 6px;
 }
