@@ -1852,14 +1852,23 @@ opacity: .95;
   margin: 0;
 }
 
-.views-slideshow-controls-bottom {
+.view-home-page-slideshow .views-slideshow-controls-bottom {
   position: absolute;
   bottom: 12px;
   right: 100px;
   z-index: 1000;
 }
 
-.views-slideshow-controls-bottom .views-field-counter {
+.view-home-page-slideshow .views-slideshow-controls-bottom .views-field-counter {
   display: inline-block;
   margin-left: 6px;
+}
+
+.view-home-page-slideshow .views-field.views-field-title {
+color: #FFFFFF;
+font-family: arial;
+font-size: 40px;
+left: 44%;
+position: absolute;
+top: 55px;
 }
