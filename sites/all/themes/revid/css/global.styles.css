@@ -1852,9 +1852,9 @@ opacity: .95;
   margin: 0;
 }
 
-.view-home-page-slideshow .views-slideshow-controls-bottom {
+.view-home-page-slideshow   .views-slideshow-controls-bottom {
   position: absolute;
-  bottom: 12px;
+  bottom: 36px;
   right: 100px;
   z-index: 1000;
 }
